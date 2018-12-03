@@ -1,4 +1,4 @@
-新建仓库后提交到远程仓库时失败：
+新建仓库后提交到远程仓库时失败：（邮箱已经验证过了！）
 $ git push
 remote: You must verify your email address.
 remote: See https://github.com/settings/emails.

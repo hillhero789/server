@@ -40,3 +40,7 @@ ctrl + z
 
 
 通过命令chvt n(n为1-6）来切换文本终端
+
+
+
+windows下访问linux服务器的常用软件：putty
