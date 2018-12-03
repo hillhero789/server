@@ -1,0 +1,42 @@
+﻿安装GUI
+apt-get install ubuntu-desktop
+apt-get install -y firefox
+启动GUI
+startx
+停止GUI
+ps -ef|grep xinit
+kill -9 进程ID
+
+登陆
+SSH root@xxx.xxx.xxx.xxx
+
+安装软件
+apt install xxx
+
+服务器与本地文件传输
+scp -r /local/directory/to/tranx/ root@106.12.130.174:/server/directory
+
+启动 ngnix 服务
+systemctl status nginx
+
+nginx配置文件
+/etc/nginx/sites-enabled/default
+
+修改文件夹读写权限
+chmod -R a+rwx /folder/to/change
+
+安装gedit
+apt install gedit
+
+使程序后台运行
+ctrl + z
+操作后程序中止，需使用 bg 命令让其后台运行
+　　(1) CTRL+Z挂起进程并放入后台
+　　(2) jobs 显示当前暂停的进程
+　　(3) bg %N 使第N个任务在后台运行(%前有空格)
+　　(4) fg %N 使第N个任务在前台运行
+　　默认bg,fg不带%N时表示对最后一个进程操作! 
+
+
+
+通过命令chvt n(n为1-6）来切换文本终端

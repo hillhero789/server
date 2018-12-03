@@ -1,0 +1,13 @@
+﻿编译XDAG 0.3
+1、安装libtool
+2、安装autoconf autoreconf
+3、安装sudo apt-get install git gcc libssl-dev libgmp-dev
+4、安装make
+5、安装automake
+6、先进入secp256k1文件夹，执行以下命令
+	$ ./autogen.sh
+	$ ./configure
+	$ make
+	$ ./tests
+	$ sudo make install  # optional
+7、进入client，使用make

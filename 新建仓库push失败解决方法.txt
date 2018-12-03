@@ -1,0 +1,16 @@
+新建仓库后提交到远程仓库时失败：
+$ git push
+remote: You must verify your email address.
+remote: See https://github.com/settings/emails.
+fatal: unable to access 'https://github.com/hillhero789/server.git/': The requested URL returned error: 403
+
+
+解决方法：
+Github seems only supports ssh way to read&write the repo, although https way also displayed 'Read&Write'.
+
+So you need to change your repo config on your PC to ssh way:
+
+edit .git/config file under your repo directory
+find url=entry under section [remote "origin"]
+change it from url=https://MichaelDrogalis@github.com/derekerdmann/lunch_call.git to url=ssh://git@github.com/derekerdmann/lunch_call.git. that is, change all the texts before @ symbol to ssh://git
+Save config file and quit. now you could use git push origin master to sync your repo on GitHub
