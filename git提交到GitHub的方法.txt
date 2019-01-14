@@ -30,3 +30,9 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
  
 第2步：登录github。打开setting->SSH keys，点击右上角 New SSH key，把生成好的公钥id_rsa.pub放进 key输入框中，再为当前的key起一个title来区分每个key。
+
+
+
+
+git branch newbranchname	//新建分支
+git checkout newbranchname	//切换至新分支
