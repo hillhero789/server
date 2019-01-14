@@ -34,5 +34,13 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 
 
-git branch newbranchname	//新建分支
-git checkout newbranchname	//切换至新分支
+//创建新分支办法
+在GITHUB中创建新分支 newRemoteBranch
+git checkout -b newLocalBranch	//创建本地新分支 newLocalBranch
+git push --set-upstream git@github.com:hillhero789/pythonDev.git newRemoteBranch //切换当前分支到newLocalBranch后使用此命令，newRemoteBranch为远程新建分支名称
+
+//切换分支命令
+git checkout 分支名
+
+//下载远程分支
+git clone -b newRemoteBranch https://github.com/hillhero789/pythonDev.git
