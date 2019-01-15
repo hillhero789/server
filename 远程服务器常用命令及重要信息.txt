@@ -44,3 +44,5 @@ ctrl + z
 
 
 windows下访问linux服务器的常用软件：putty
+
+windows下访问linux服务器文件 WinSCP
