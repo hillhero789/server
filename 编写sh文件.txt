@@ -1,0 +1,4 @@
+sed -i 's/\r$//' yourShFile			这个指令用于删除windows下编写的sh文件到了linux下无法运行，因为每行多了\r
+
+详见：
+https://www.cnblogs.com/sipher/articles/2440727.html

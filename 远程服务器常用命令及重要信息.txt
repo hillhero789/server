@@ -46,3 +46,11 @@ ctrl + z
 windows下访问linux服务器的常用软件：putty
 
 windows下访问linux服务器文件 WinSCP
+
+
+开端口：
+iptables -I INPUT -p tcp --dport 端口号 -j ACCEPT
+iptables-server
+
+
+frp软件可以让普通电脑使用vps的固定ip
