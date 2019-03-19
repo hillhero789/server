@@ -54,3 +54,5 @@ iptables-server
 
 
 frp软件可以让普通电脑使用vps的固定ip
+
+winscp这个软件非常好用
