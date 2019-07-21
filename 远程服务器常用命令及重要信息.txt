@@ -56,3 +56,11 @@ iptables-server
 frp软件可以让普通电脑使用vps的固定ip
 
 winscp这个软件非常好用
+
+命令行防止/恢复休眠：
+On Ubuntu 16.04 LTS, I successfully used the following to disable suspend:
+
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+And this to re-enable it:
+
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
