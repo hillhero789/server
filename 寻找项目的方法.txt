@@ -1,0 +1,9 @@
+1、通过github知名项目，查找fork它的开发者里，最近提交代码很多的人，看有没有发新项目
+2、推特找到一两个新项目，查找它的发布路径
+3、推特里查找最早发布相关信息的大V，关注它
+4、medium查找项目发布信息，查找yield farming
+5、推特用关键字，比如#defi launch token sale public sale等
+6、bitkeep查找新新项目
+7、etherscan上查找新发的uniswap lp
+8、看推特大v新增关注
+9、看热门项目的首发公告，都有谁立刻转推了，加他！
